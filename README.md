@@ -9,4 +9,4 @@ You can get the position, the IP and the name on the Minecraft-ITALIA's server l
 
 #Dependencies
 
-- Minecraft-ITALIA API (https://api-minecraft-italia.it).
+- Minecraft-ITALIA API (https://api.minecraft-italia.it).
