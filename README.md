@@ -1,2 +1,6 @@
 # MCBanners
-Crea banners personalizzati in un solo click, sfruttando le API di Minecraft-ITALIA!
+Create banners by using the Minecraft-ITALIA API.
+
+How does it works:
+
+
