@@ -1,6 +1,3 @@
-# MCBanners
-Create banners by using the Minecraft-ITALIA API.
-
 #How does it works
 
 By making a request to the Minecraft-ITALIA's APIs (https://api.minecraft-italia.it) the application gets informations
