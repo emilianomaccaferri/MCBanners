@@ -1,0 +1,91 @@
+body{
+ 
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.header{
+ 
+    margin-top: 0px;
+    background: #141414;
+    height: 55px;
+    vertical-align: middle;
+    line-height: 55px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5em;
+    color: white;
+} 
+.headerimg{
+
+    margin: 0 auto;
+    
+}
+
+.margin{
+ margin-left: 10px;   
+}
+
+.center{
+    width: 780px;
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1em;
+    color: dimgrey;
+    text-align: center;
+}
+
+.id{
+ 
+    height: 30px;
+    font-size: 1em;
+    width: 230px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #DADADA;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    color: black;
+}
+
+button{
+ 
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    border: 1px solid transparent;
+    background: #2980b9;
+    width: 230px;
+    font-size: 0.75em;
+    
+}
+
+button:hover{
+ 
+    background: #3498db;
+    
+}
+select{
+    
+    height: 30px;
+    font-size: 1em;
+    width: 230px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #DADADA;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    color: black;
+    background-image:url(assets/diamond.png);
+}
+.codice{
+ 
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    border: 1px solid transparent;
+    background: #9ecd68;
+    width: 230px;
+    font-size: 0.75em;
+}
+
+.codice:hover{
+ 
+    background: #74a93e;
+    
+}
