@@ -1,21 +1,22 @@
 <html>
 
     <head>
-    
+
         <title>MCBanners &bull; Crea il tuo banner!</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
     </head>
-    
+
     <body>
     <div class="header"><div class="margin">MCBanners</div></div>
         <div class="center" style="margin-top: 45px;"><img src="assets/header.png"></div>
         <div class="center" style="margin-top: 30px; text-align: justify;">
-        
+
             Benvenuto! Qui puoi iniziare a creare il tuo banner personalizzato per MC-ITA.<br>
             Questo tool sfrutta le API di Minecraft-Italia per creare banner vari stili, per un senso di modernit&agrave; al proprio server.<br>
             Inserisci qui sotto l'id del server (https://minecraft-italia.it/lista-server-italiani/<b>id</b>) e crea il tuo banner!<br>
+            Puoi trovare il source su <a href="https://github.com/GeneralApathy/MCBanners/" target="_blank" style="text-shadow: 1px 2px 4px 1px; color: grey;">GitHub</a>
         </div>
             <div class="center">
         <form action="codice_banner.php" method="get">
