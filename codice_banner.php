@@ -8,7 +8,7 @@
     </head>
 
     <body>
-    <div class="header"><div class="margin">MCBanners</div></div>
+    <div class="header"><div class="margin"><a href="index.php" style="color: white;">MCBanners</a></div></div>
         <div class="center" style="margin-top: 30px; text-align: center;">
 
           <?php
@@ -47,7 +47,7 @@ if($bannervalue === "" || $logovalue === ""){
             <?php
  echo "<img src='http://mcbanners.it/banner.php?server_id=$id&logo=$logovalue&banner=$bannervalue'>";
 ?><br><br>
-                <div style="background-color: white; box-shadow: inset 0px 1px 4px #ECECEC; border-radius: 4px; width: 500px; font-size: 20px; margin: 0 auto; border: 1px solid grey;">
+                <div class="codicebanner">
                     HTML<br>
                 &lt;img src="http://mcbanners.it/banner.php?server_id=<?php echo $id;?>&logo=<?php echo $logovalue;?>&banner=<?php echo $bannervalue;?>"><br>
                     <hr>

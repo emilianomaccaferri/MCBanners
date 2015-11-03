@@ -1,11 +1,11 @@
 body{
- 
+
     margin: 0;
     background-color: whitesmoke;
 }
 
 .header{
- 
+
     margin-top: 0px;
     background: #141414;
     height: 55px;
@@ -14,15 +14,15 @@ body{
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.5em;
     color: white;
-} 
+}
 .headerimg{
 
     margin: 0 auto;
-    
+
 }
 
 .margin{
- margin-left: 10px;   
+ margin-left: 10px;
 }
 
 .center{
@@ -35,7 +35,7 @@ body{
 }
 
 .id{
- 
+
     height: 30px;
     font-size: 1em;
     width: 230px;
@@ -47,23 +47,23 @@ body{
 }
 
 button{
- 
+
     color: white;
     font-family: 'Noto Sans', sans-serif;
     border: 1px solid transparent;
     background: #2980b9;
     width: 230px;
     font-size: 0.75em;
-    
+
 }
 
 button:hover{
- 
+
     background: #3498db;
-    
+
 }
 select{
-    
+
     height: 30px;
     font-size: 1em;
     width: 230px;
@@ -75,7 +75,7 @@ select{
     background-image:url(assets/diamond.png);
 }
 .codice{
- 
+
     color: white;
     font-family: 'Noto Sans', sans-serif;
     border: 1px solid transparent;
@@ -85,7 +85,32 @@ select{
 }
 
 .codice:hover{
- 
+
     background: #74a93e;
-    
+
+}
+
+.codicebanner{
+
+  background-color: white;
+   box-shadow: inset 0px 1px 4px #ECECEC;
+    border-radius: 4px;
+    min-width: 500px;
+    max-width: 650px;
+     font-size: 20px;
+      margin: 0 auto;
+       border: 1px solid grey;
+       font-family: 'Noto Sans', sans-serif;
+       transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+       -ms-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+       -webkit-transition: all .2s ease-in-out;
+
+}
+
+.codicebanner:hover{
+
+  transform: scale(1.05);
+
 }
