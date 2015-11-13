@@ -1,16 +1,25 @@
+<!DOCTYPE html>
 <html>
 
     <head>
 
-        <title>MCBanners &bull; Crea il tuo banner!</title>
+        <title>MCBanners &bull; Banner creato!</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <style>
+        body{
+          animation: 2s fadeint ease-in-out;
+          -o-animation: 2s fadeint ease-in-out;
+          -ms-animation: 2s fadeint ease-in-out;
+          -webkit-animation: 2s fadeint ease-in-out;
+          -moz-animation: 2s fadeint ease-in-out;
+        }
+        </style>
     </head>
 
     <body>
-    <div class="header"><div class="margin"><a href="index.php" style="color: white;">MCBanners</a></div></div>
-        <div class="center" style="margin-top: 30px; text-align: center;">
-
+      <a href="index.php" style="text-decoration: none;"><div class="home"><div class="hometext">Torna alla home</div></div></a>
+      <div class="text" style="text-align: center; margin-top: 100px;">
           <?php
           require('phplibs/infos.class.php');
           $getInfos = new getInfos();
@@ -40,9 +49,13 @@ if($bannervalue === "" || $logovalue === ""){
 
 }
             echo "Il tuo banner &egrave; stato creato!<br>
-            Seleziona il codice qui sotto per incorporarlo in un forum o in un sito web!<br>";
+            Seleziona il codice qui sotto per incorporarlo in un forum o in un sito web!<br>
+            <br>
+            <b>Non vedi il banner?</b><br>
+              Il problema pu&ograve; essere causato da un'estensione che blocca gli annunci.<br>
+              Aggiungi alle eccezioni il nostro sito, puoi stare tranquillo, non ci sar&agrave; mai traccia di annunci qui.";
             ?>
-        </div>
+
             <div class="center" style="margin-top: 25px;">
             <?php
  echo "<img src='http://mcbanners.it/banner.php?server_id=$id&logo=$logovalue&banner=$bannervalue'>";
@@ -56,6 +69,7 @@ if($bannervalue === "" || $logovalue === ""){
 
                 </div>
                <p style="font-size: 15px;">Made with &hearts; by <a style="color: grey;" href="https://www.minecraft-italia.it/forum/u-generalapathy" target="_blank">GeneralApathy</a> & <a href="https://www.minecraft-italia.it/forum/u-yowsky" target="_blank" style="color: grey;">Yowsky</a></p>
+            </div>
             </div>
     </body>
 </html>

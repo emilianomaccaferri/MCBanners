@@ -14,6 +14,7 @@ $data = json_decode($getInfos->serverInfos($url), true);
 $title = $data['title'];
 $ip = $data['address'];
 $position = $data['position'];
+
 if (preg_match('/[^abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-]/', $_GET['server_id']) ||
 array_key_exists("error", $data) ||
 preg_match('/[^abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-]/', $logovalue) ||
